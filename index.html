@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cistercian numerals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cistercian numerals</h1>
+    </header>
+
+    <section id="description">
+        <p>The medieval Cistercian numerals, or "ciphers" in nineteenth-century parlance, were developed by the Cistercian monastic order in the early thirteenth century at about the time that Arabic numerals were introduced to northwestern Europe. They are more compact than Arabic or Roman numerals, with a single character able to indicate any integer from 1 to 9999. Digits are based on a horizontal or vertical stave, with the position of the digit on the stave indicating its place value (units, tens, hundreds or thousands). These digits are compounded on a single stave to indicate more complex numbers.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Cistercian_numerals" target="_blank" rel="noopener noreferrer">Source: https://en.wikipedia.org/wiki/Cistercian_numerals</a></p>
+    </section>
+
+    <hr>
+
+    <section id="generator">
+        <div id="wrapper">
+            <div id="left">
+                <label for="inputnumber">Enter number [1-9999]:</label><br>
+                <input type="number" max="9999" min="1" value="1" id="inputnumber" name="inputnumber"><br>
+                <button id="generateNumber">Submit</button>
+            </div>
+            <div id="right">
+                <canvas id="canvas" width="400px" height="400px">Your browser does not support `Canvas'</canvas>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+    <p>based on <a href="numerals.png">this</a> image.</p>
+
+    <script type="text/javascript" src="cistercian.js"></script>
+
+</body>
+</html>

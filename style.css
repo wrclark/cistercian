@@ -1,0 +1,24 @@
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+#left {
+    width: 20%;
+    float: left;
+}
+
+#right {
+    width: 80%;
+    float: right;
+}
+
+#canvas {
+    min-width: 76%;
+    min-height: 76%;
+    border: 1px dotted black;
+}
